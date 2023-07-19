@@ -1,0 +1,10 @@
+[
+
+    {"keys": ["ctrl+b"],    "command": "nv_feed_key", "args": {"key": "<C-b>"},         "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<C-b>"}]},
+    {"keys": ["ctrl+d"],    "command": "nv_feed_key", "args": {"key": "<C-d>"},         "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<C-d>"}]},
+    {"keys": ["ctrl+f"],    "command": "nv_feed_key", "args": {"key": "<C-f>"},         "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<C-f>"}]},
+    {"keys": ["ctrl+u"],    "command": "nv_feed_key", "args": {"key": "<C-u>"},         "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<C-u>"}]},
+    {"keys": ["pagedown"],  "command": "nv_feed_key", "args": {"key": "<pagedown>"},    "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<pagedown>"}]},
+    {"keys": ["pageup"],    "command": "nv_feed_key", "args": {"key": "<pageup>"},      "context": [{"key": "vi_insert_mode_aware"},    {"key": "nv_handle_key", "operand": "<pageup>"}]},
+
+]

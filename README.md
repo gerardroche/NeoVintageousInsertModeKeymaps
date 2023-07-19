@@ -4,6 +4,22 @@
 
 Support for insert mode key mappings in [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
 
+To disable a key use `vintageous_handle_keys`.
+
+Menu → Preferences → Settings
+
+```js
+"vintageous_handle_keys":
+{
+    "<C-f12>": false,
+    "<S-f1>": false,
+    "<S-tab>": false,
+    "<f1>": false,
+    "i_<C-u>": false,
+    "i_<C-d>": false,
+},
+```
+
 ## Installation
 
 ### Manual installation
