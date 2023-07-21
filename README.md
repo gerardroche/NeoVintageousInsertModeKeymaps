@@ -1,24 +1,28 @@
 # NeoVintageous Insert Mode Keymaps
 
-:sparkles: :sparkles: :sparkles: Experimental :sparkles: :sparkles: :sparkles:
+:sparkles: :sparkles: :sparkles: Experimental; Subject to change :sparkles: :sparkles: :sparkles:
 
 Support for insert mode key mappings in [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous).
 
 To disable a key use `vintageous_handle_keys`.
+
+Example
 
 Menu → Preferences → Settings
 
 ```js
 "vintageous_handle_keys":
 {
-    "<C-f12>": false,
-    "<S-f1>": false,
-    "<S-tab>": false,
-    "<f1>": false,
     "i_<C-u>": false,
     "i_<C-d>": false,
 },
 ```
+
+Read [How to configure the NeoVintageous key handler](https://blog.gerardroche.com/2022/09/22/neovintageous-key-handler/).
+
+Insert mode keys are disabled by default in NeoVintageous because they can conflict with the base normal functioning of input keys.  This is an [outstanding issue](https://github.com/NeoVintageous/NeoVintageous/issues/837).
+
+This package is meant to be a bridge toward resolving that issue.
 
 ## Installation
 
