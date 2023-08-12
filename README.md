@@ -6,17 +6,20 @@ Support for insert mode key mappings in [NeoVintageous](https://github.com/NeoVi
 
 To disable a key use `vintageous_handle_keys`.
 
-Example
+**Example:**
 
-Menu → Preferences → Settings
+1. Open the Command Palette: `Preferences: NeoVintageous Settings`.
+2. Add the following JSON configuration:
 
-```js
-"vintageous_handle_keys":
-{
-    "i_<C-u>": false,
-    "i_<C-d>": false,
-},
-```
+   ```json
+   {
+       "vintageous_handle_keys":
+       {
+           "i_<C-u>": false,
+           "i_<C-d>": false
+       }
+   }
+   ```
 
 Read [How to configure the NeoVintageous key handler](https://blog.gerardroche.com/2022/09/22/neovintageous-key-handler/).
 
@@ -26,21 +29,25 @@ This package is meant to be a bridge toward resolving that issue.
 
 ## Installation
 
-### Manual installation
+**Method 1: Manual Installation**
 
-Close Sublime Text, then download or clone this repository to a directory named **NeoVintageous** in the Sublime Text Packages directory for your platform:
+1. Visit the [NeoVintageousInsertModeKeymaps GitHub repository](https://github.com/gerardroche/sublime-phpunit).
+2. Click on the "Code" button and select "Download ZIP."
+3. Extract the downloaded ZIP file.
+4. Open Sublime Text and go to `Preferences -> Browse Packages...` to open the Packages folder.
+5. Copy the "NeoVintageousInsertModeKeymaps" folder from the extracted ZIP and paste it into the Packages folder.
 
-**Linux**
+**Method 2: Manual Git Repository Installation**
 
-`git clone https://github.com/gerardroche/NeoVintageousInsertModeKeymaps.git ~/.config/sublime-text-3/Packages/NeoVintageous`
-
-**OSX**
-
-`git clone https://github.com/gerardroche/NeoVintageousInsertModeKeymaps.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/NeoVintageous`
-
-**Windows**
-
-`git clone https://github.com/gerardroche/NeoVintageousInsertModeKeymaps.git %APPDATA%\Sublime/ Text/ 3/Packages/NeoVintageous`
+1. Open a terminal or command prompt.
+2. Navigate to the Sublime Text Packages directory:
+    - On Windows: `%APPDATA%\Sublime Text\Packages`
+    - On macOS: `~/Library/Application Support/Sublime Text/Packages`
+    - On Linux: `~/.config/sublime-text/Packages`
+3. Clone the plugin repository directly into the Packages directory using Git:
+   ```
+   git clone https://github.com/gerardroche/sublime-phpunit.git NeoVintageousInsertModeKeymaps
+   ```
 
 ## License
 
